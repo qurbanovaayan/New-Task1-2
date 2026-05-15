@@ -1,0 +1,28 @@
+<!--/task 1: Secret Login İstifadəçidən login istəyin. Əgər istifadəçi "admin"
+yazsa: sonra password soruşulsun. Password "12345" olsa: Admin panelə giriş
+edildi Əks halda: Şifrə yanlışdır Əgər login səhvdirsə: Belə istifadəçi yoxdur//
+-->
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <script>
+  let login = prompt("Login daxil edin");
+  let password = prompt("Password daxil edin");
+
+  (login === "admin" && password === "12345") &&
+    alert("Admin panelə giriş edildi");
+
+  (login === "admin" && password !== "12345") &&
+    alert("Şifrə yanlışdır");
+
+  (login !== "admin" && password !== "12345") &&
+    alert("Belə istifadəçi yoxdur");
+</script>
+  </body>
+</html>
