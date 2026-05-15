@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="style1.css">
+   
+
+    <style>
+      body {
+        background: radial-gradient(
+          circle at top,
+          rgba(114, 6, 157, 0.5),
+          black 20%
+        );
+        font-family: Inter, sans-serif;
+      }
+      .orbitron {
+        font-family: Orbitron, sans-serif;
+      }
+    </style>
+
+    <title>VR</title>
+  </head>
+
+  <body class="text-white overflow-x-hidden m-0">
+    
+    <header class="flex justify-between items-center px-[60px] py-[30px]">
+      <h1 class="text-[30px] font-bold orbitron">LIGHT</h1>
+
+      <nav class="flex items-center gap-[40px]">
+        <a class="text-pink-500 relative" href="#">
+          Home
+          <span
+            class="absolute left-1/2 -translate-x-1/2 -bottom-2 w-[16px] h-[2px] bg-white"
+          ></span>
+        </a>
+        <a class="hover:text-pink-500 transition" href="#">Company</a>
+        <a class="hover:text-pink-500 transition" href="#">Features</a>
+
+        <button
+          class=" hover:scale-30px duration-300 bg-gradient-to-r from-fuchsia-500 to-purple-600 px-6 py-3 rounded-md font-semibold "
+        >
+          Sign Up
+        </button>
+      </nav>
+    </header>
+
+    <section class="flex justify-between items-center px-[60px] py-[40px]">
+      <!-- LEFT -->
+      <div class="max-w-[400px]">
+        <h2 class=" font-[orbitron] text-[31px] font-black leading-[43px]">
+          Let’s Explore <br />
+          Three-Dimensional <br />
+          visual
+        </h2>
+
+        <p class="text-white/80 text-[12px] leading-[25px] mt-4">
+          With virtual technology you can see the digital world feel more real
+          and you can play the game with a new style.
+        </p>
+
+        <div class="flex gap-[20px] my-[40px]">
+          <button
+            class="bg-gradient-to-r from-fuchsia-500 to-purple-600 px-6 py-3 rounded-md font-semibold"
+          >
+            Get it Now
+          </button>
+
+          <button class="font-semibold hover:text-pink-500 transition">
+            Explore Device
+          </button>
+        </div>
+
+        <div class="flex items-center gap-[15px]">
+          <div class="flex">
+            <img
+              class="w-[40px] h-[40px] rounded-full border border-white -ml-0"
+              src="Ellipse 1 (1).png"
+            />
+            <img
+              class="w-[40px] h-[40px] rounded-full border border-white -ml-2"
+              src="Ellipse 2.png"
+            />
+            <img
+              class="w-[40px] h-[40px] rounded-full border border-white -ml-2"
+              src="Ellipse 3.png"
+            />
+            <img
+              class="w-[40px] h-[40px] rounded-full border border-white -ml-2"
+              src="Ellipse 4.png"
+            />
+          </div>
+
+          <span>● 400k people online</span>
+        </div>
+      </div>
+
+      
+      <div class="relative">
+        <img src="Group 23.png" class="w-[421px] h-[492px]" />
+
+        <div
+          class="absolute top-[40px] left-[-20px] w-[390px] h-[180px] border border-pink-300 rounded-full rotate-[12deg]"
+        ></div>
+      </div>
+    </section>
+
+    
+    <section class="flex items-center gap-[80px] px-[60px] py-[100px]">
+      <div class="flex gap-[20px]">
+        <img
+          src="Vector 1.png"
+          class="w-[220px] h-[300px] border border-pink-400 object-cover"
+        />
+        <img
+          src="Vector 2.png"
+          class="w-[220px] h-[300px] mt-[80px] border border-pink-400 object-cover"
+        />
+      </div>
+
+      <div class="max-w-[350px]">
+        <h2 class="orbitron text-[31px] font-black leading-[43px]">
+          New Experience In <br />
+          Playing Game
+        </h2>
+
+        <p class="text-white/80 text-[12px] leading-[25px] mt-4">
+          Try playing the game with a new style and a more real feel, like you
+          are the main character in your digital world.
+        </p>
+
+        <button
+          class="mt-6 bg-gradient-to-r from-fuchsia-500 to-purple-600 px-6 py-3 rounded-md font-semibold"
+        >
+          Get it Now
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
